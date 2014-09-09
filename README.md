@@ -3,7 +3,7 @@ CodeHerExampleDjangoApp
 
 This is the example application for the CodeHer Django lesson participants.
 
-Prerequisites for working with this repository:
+Prerequisites for working with this repository at CodeHer:
 -----------------------------------------------
   *	Make sure you have Python 2.7
   *	Make sure you have Pip for installing Python packages
@@ -11,6 +11,8 @@ Prerequisites for working with this repository:
     Find instructions for installing Python and Pip for Windows [here](http://arunrocks.com/guide-to-install-python-or-pip-on-windows)
   * Python should come with your Mac.  
     In your computer terminal type `Python` if you do not see something like `Python 2.7.7 (default, Jun 14 2014, 23:12:13)` you will need to follow the steps [here](http://wwW.pyladies.com/blog/Get-Your-Mac-Ready-for-Python-Programming)
+  * Install virtualenv:
+  `pip install virtualenv` or if that doesn't work, `sudo pip install virtualenv`
   * A text editor of your choice:  Sublime Text 2, PyCharm, etc
 
 
