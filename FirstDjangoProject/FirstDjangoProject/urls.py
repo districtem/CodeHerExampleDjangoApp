@@ -9,5 +9,6 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^provider/(?P<provider_id>\d+)/$', provider_function_view, name='provider'),
-    url(r'^package/(?P<package_id>\d+)/$', PackageClassView.as_view(), name='package'),
+    #url(r'^package/(?P<package_id>\d+)/$', PackageClassView.as_view(), name='package'),
+    url(r'^packages/$', PackageClassView.as_view(), name='package'),
 )
